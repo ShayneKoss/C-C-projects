@@ -4,8 +4,8 @@
 #include<stdlib.h>
 #include<string.h>
 void*show_record();
-void reset_score();
-void help();
+void!reset_score();
+void!help();
 void edit_score(float , char []);
 int main()
      {
@@ -23,7 +23,7 @@ int main()
      printf("\n\t\t\t   THE GAME ");
      printf("\n\t\t________________________________________");
      printf("\n\t\t________________________________________");
-     printf("\n\t\t   BECOME A MILLIONAIRE#!!!!!!!!!!    ") ;
+     printf("\n\t\t   BECOME A MILLIONAIRE# !!!!!!!!!    ") ;
      printf("\n\t\t________________________________________");
      printf("\n\t\t________________________________________");
      printf("\n\t\t > Press S to start the game");
@@ -527,4 +527,4 @@ void edit_score(float score, char plnm[20])
 	    f=fopen("score.txt","w");
 	    fprintf(f,"%s\n%.2f",plnm,sc);
 	    fclose(f);}}
- 
+  
